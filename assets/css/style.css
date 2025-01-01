@@ -1,0 +1,39 @@
+.Button--primary {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 19.5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1.7px;
+    color: #fff;
+    background-color: #333333;
+    border: 2px solid #333333;
+    border-radius: 16px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.Button--primary:hover {
+    color: #333333;
+    background-color: #ffffff;
+}
+
+@media screen and (min-width: 641px) {
+    .Button--primary {
+        padding: 19.5px;
+    }
+}
+
+/* For size selection button */
+.rtw_sele_size {
+    text-transform: uppercase;
+    padding: 14px 15px;
+    display: block;
+    pointer-events: auto;
+}
